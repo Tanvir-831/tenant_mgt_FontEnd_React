@@ -1,0 +1,38 @@
+/* Sidebar.css */
+
+/* Define your CSS styles for the sidebar */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .sidebar-header {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-nav-item {
+    margin: 0;
+  }
+  
+  .sidebar-link {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  /* Remove underline and set background color as light blue */
+  .sidebar-link:hover {
+    text-decoration: none;
+    background-color: lightblue;
+    color: #333; /* Change text color on hover if needed */
+  }
+  
